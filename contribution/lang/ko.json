@@ -30,7 +30,7 @@
  	 	},
  	 	"print": {
  	 	 	"name": {
- 	 	 	 	"trans": "인쇄 랭크",
+ 	 	 	 	"trans": "프린팅 랭크",
  	 	 	 	"eng": "printing rank"
  	 	 	}
  	 	},
@@ -312,12 +312,12 @@
  	 	 	 	"eng": "Molecular 3d Printer"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "여기서 캐시를 사용하여 새 장비를 인쇄할 수 있습니다.",
+ 	 	 	 	"trans": "여기서 캐시를 사용하여 새 장비를 프린팅할 수 있습니다.",
  	 	 	 	"eng": "You can use your Cache to print new equipment here"
  	 	 	},
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"캐시를 갖고 있다면 원하는건 내가 뭐든 인쇄 해 주지!"
+ 	 	 	 	 	"캐시를 갖고 있다면 원하는 게 뭐든 프린팅해 주지!"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"I'll print whatever you want if you have the cache!"
@@ -447,7 +447,7 @@
  	 	 	 	"trans": [
  	 	 	 	 	"꼬맹아, 난 '리' 라고 한다. 너도 알겠지만, 네 주머니에 모든걸 갖고 다닐 필요는 없어",
  	 	 	 	 	"여기는 평범한 가게가 아니란다",
- 	 	 	 	 	"글쎄, 거래할건가?",
+ 	 	 	 	 	"글쎄, 거래할 건가?",
  	 	 	 	 	"가방이 꽉 차 보이는군. 내가 도와줄 수 있지"
  	 	 	 	],
  	 	 	 	"eng": [
@@ -469,11 +469,11 @@
  	"action": {
  	 	"increasePrint": {
  	 	 	"name": {
- 	 	 	 	"trans": "인쇄 공장 작업",
+ 	 	 	 	"trans": "프린팅 공장 작업",
  	 	 	 	"eng": "work in printing factory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "폐기 장비를 소모하지 않고 인쇄 랭크를 향상시키는 식으로, 인쇄 레벨을 높이는 데 이 작업이 도움이 될 겁니다.",
+ 	 	 	 	"trans": "공학 조각을 희생하지 않고 프린팅 랭크를 높이십시오. 프린팅 레벨을 높이는 데 도움이 될 수 있습니다.",
  	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
  	 	 	}
  	 	},
@@ -503,7 +503,7 @@
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "인쇄 랭크를 올리기 위해 공학 조각을 역변환하세요. \r\n        공학 조각을 소모합니다.",
+ 	 	 	 	"trans": "프린팅 랭크를 올리기 위해 공학 조각을 역변환하세요. \r\n        공학 조각을 소모합니다.",
  	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
  	 	 	}
  	 	},
@@ -718,7 +718,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "${typeName} 캐시에는 분자 3D 프린팅에 관한 정보가 들어있습니다, \r\n                    [도심지]의 [분자 3D 프린터]에서 ${typeName}를 만들 수 있습니다.\r\n                    \r\n                    팁: 인쇄 랭크에 의해 실제 아이템의 레벨이 결정되므로,\r\n                    항상 조잡함 등급의 아이템을 먼저 인쇄하는 게 좋습니다. 인쇄 랭크를 올리는 데 도움이 되고 싸기 때문입니다.",
+ 	 	 	 	"trans": "${typeName} 캐시에는 분자 3D 프린팅에 관한 정보가 들어있습니다, \r\n                    [도심지]의 [분자 3D 프린터]에서 ${typeName}를 만들 수 있습니다.\r\n                    \r\n                    팁: 프린팅 랭크에 의해 실제 아이템의 레벨이 결정되므로,\r\n                    항상 조잡함 등급의 아이템을 먼저 프린팅하는 게 좋습니다. 프린팅 랭크를 올리는 데 도움이 되고 싸기 때문입니다.",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -764,27 +764,27 @@
  	 	},
  	 	"healing2": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 조잡한 나노 수리 로봇",
+ 	 	 	 	"trans": "[의료] 조잡한 수리용 나노 로봇",
  	 	 	 	"eng": "Degraded Nano Repair Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "낡은 나노 수리 로봇으로, 작은 공학 기기를 수리하는 데에 주로 사용됩니다.",
+ 	 	 	 	"trans": "낡은 수리용 나노 로봇으로, 작은 공학 기기를 수리하는 데에 주로 사용됩니다.",
  	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
  	 	 	}
  	 	},
  	 	"healing3": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 조잡한 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료] 조잡한 의료용 나노 로봇",
  	 	 	 	"eng": "Degraded Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "낡은 나노 의료 로봇으로, 어떤 상처(약관 참조)든 주입하면 치료됩니다!",
+ 	 	 	 	"trans": "낡은 의료용 나노 로봇으로, 어떤 상처(약관 참조)든 주입하면 치료됩니다!",
  	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing4": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 나노 의료 로봇",
+ 	 	 	 	"trans": [의료] 의료용 나노 로봇",
  	 	 	 	"eng": "Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
@@ -794,41 +794,41 @@
  	 	},
  	 	"healing5": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 군용 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료] 군 의료용 나노 로봇",
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "주입형 나노 기계로 군용으로 자주 사용되며, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용 주입형 나노 머신으로, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 강화 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료] 강화 의료용 나노 로봇",
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군대에서 사용되는 주입형 나노 기계로, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용 주입형 나노 머신으로, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 고급 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료] 고급 의료용 나노 로봇",
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "심화 군용 주입형 나노 기계로, 전투 상황에서 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용 주입형 나노 머신으로, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing8": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 희귀 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료] 희귀 의료용 나노 로봇",
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "심화 군용 주입형 나노 기계로, 전투 상황에서 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용 주입형 나노 머신으로, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -938,7 +938,7 @@
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "비트코인 채굴을 위한 전용 하드웨어로 사용할 수 있습니다. \r\n        하지만 오버클러킹을 한다면 채굴기는 금방 고장날 것 입니다. \r\n        [일자리 허브]에서 비트코인을 채굴해보는건 어떄요?",
+ 	 	 	 	"trans": "비트코인 채굴을 위한 전용 하드웨어로 사용할 수 있습니다. \r\n        하지만 오버클러킹을 한다면 채굴기는 금방 고장날 것 입니다. \r\n        [일자리 허브]에서 비트코인을 채굴해보는 건 어떄요?",
  	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
  	 	 	}
  	 	},
@@ -1041,7 +1041,7 @@
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "장비를 분해하여 나온 공학 조각. 역공학을 통해 인쇄 경험치를 얻을 수 있습니다. \r\n         일자리 허브에서 역공학을 수행할 수 있습니다.",
+ 	 	 	 	"trans": "장비를 분해하여 나온 공학 조각. 역공학을 통해 프린팅 경험치를 얻을 수 있습니다. \r\n         일자리 허브에서 역공학을 수행할 수 있습니다.",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
@@ -1459,7 +1459,7 @@
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "당신이 충분히 강하다고 생각하시나요? 그럼 던전에 도전해보는건 어떨까요?\r\n                        강력한 보스와 엄청난 전리품들이 당신을 기다리고 있지요!!\r\n                        혼자서는 힘들걸요? 다른 플레이어와 협동하는걸 권장합니다.",
+ 	 	 	 	"trans": "당신이 충분히 강하다고 생각하시나요? 그럼 던전에 도전해보는 건 어떨까요?\r\n                        강력한 보스와 엄청난 전리품들이 당신을 기다리고 있지요!!\r\n                        혼자서는 힘들걸요? 다른 플레이어와 협동하는걸 권장합니다.",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	},
  	 	 	"startName": {
@@ -1635,11 +1635,11 @@
  	 	},
  	 	"newbie3": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "인쇄 랭크 3에 도달하세요",
+ 	 	 	 	"trans": "프린팅 랭크 3에 도달하세요",
  	 	 	 	"eng": "Reach printing rank 3"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "캐시로 인쇄한 아이템의 레벨은 인쇄 랭크에 의해 결정됩니다. \r\n         인쇄 랭크 레벨을 올릴 수록 더 높은 레벨의 아이템을 인쇄할 수 있습니다. \r\n        \r\n         [중앙 허브]에서 분자 3D 프린터를 찾을 수 있으며 인쇄 랭크 레벨을 올리기 위해 캐시를 인쇄 할 수 있습니다",
+ 	 	 	 	"trans": "캐시로 프린팅한 아이템의 레벨은 프린팅 랭크에 의해 결정됩니다. \r\n         프린팅 랭크 레벨을 올릴 수록 더 높은 레벨의 아이템을 프린팅할 수 있습니다. \r\n        \r\n         [중앙 허브]에서 분자 3D 프린터를 찾을 수 있으며 프린팅 랭크 레벨을 올리기 위해 캐시를 프린팅 할 수 있습니다",
  	 	 	 	"eng": "The level of itemS you print with Caches are determined by your Printing Rank,\r\n        level up your Printing Rank so you can print higher level items.\r\n        \r\n        You can find Molecular 3D Printer at [Central Hub], use it to print some caches to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -2420,7 +2420,7 @@
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "새로운 무기와 갑옷을 인쇄하기 위해 적과 던전에서 캐시를 모으십시오",
+ 	 	 	 	"trans": "새로운 무기와 갑옷을 프린팅하기 위해 적과 던전에서 캐시를 모으십시오",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	},
@@ -3186,12 +3186,12 @@
  	 	"equipment": {
  	 	 	"lowPrintLevelTip": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "낮은 인쇄 랭크",
+ 	 	 	 	 	"trans": "낮은 프린팅 랭크",
  	 	 	 	 	"eng": "Low Printing Rank"
  	 	 	 	}
  	 	 	},
  	 	 	"lowPrintLevelTip2": {
- 	 	 	 	"trans": "더 많은 캐시를 인쇄하여 더 강력한 무기를 만드는 인쇄 랭크를 높이십시오",
+ 	 	 	 	"trans": "더 많은 캐시를 프린팅하여 더 강력한 무기를 만드는 프린팅 랭크를 높이십시오",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"quickSlots": {
@@ -5000,11 +5000,11 @@
  	 	 	},
  	 	 	"molecularPrint": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "장비 인쇄",
+ 	 	 	 	 	"trans": "장비 프린팅",
  	 	 	 	 	"eng": "Print equipment"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "분자 3D 프린터를 사용하여 아무 아이템 캐시를 인쇄하세요",
+ 	 	 	 	 	"trans": "분자 3D 프린터를 사용하여 아무 아이템 캐시를 하세요",
  	 	 	 	 	"eng": "use molecular print to print any item cache"
  	 	 	 	}
  	 	 	},
